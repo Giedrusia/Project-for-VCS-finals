@@ -1,0 +1,957 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header style start  */
+
+/* .all {
+    width: 1440px;
+} */
+
+.whole-header {
+    width: 100%;
+    height: 98px;
+    border-top: 2px solid #f79d1d;
+    columns: 4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 7px 3px -2px rgba(0, 0, 0, 0.4);
+    padding-left: 62px;
+}
+
+.container-header-logo {
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-header-text {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #6E6962;
+    margin-bottom: 0 !important;
+    margin-left: 8px;
+    margin-right: 600px;
+}
+
+.container-search {
+    display: flex;
+    align-items: center;
+    padding: 34px 66px 38px 0;
+}
+
+.search-btn {
+    width: 66px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.search {
+    width: 42px;
+    height: 24px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #191919;
+    display: flex;
+    margin-right: 8px;
+    text-decoration: none;
+
+}
+
+.search-logo {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    padding: 0;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container-social-network {
+    padding: 38px 62px 42px 0;
+}
+
+.social-network-list {
+    width: 176px;
+    height: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.fb-button {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background: url(images/facebookblack.svg);
+    margin-right: 24px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.small-btn{
+    margin-right: 24px;
+    width: 16px;
+}
+
+.fb-button:hover {
+    scale: 150%;
+    cursor: pointer;
+}
+
+.ig-button {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background: url(images/IGBlack.svg);
+    margin-right: 24px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.ig-button:hover {
+    scale: 150%;
+    cursor: pointer;
+}
+
+.yt-button {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background: url(images/YTblack.svg);
+    margin: 3px 24px 3px 0;
+    padding: 0;
+    height: 11.33px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.yt-button:hover {
+    scale: 150%;
+    cursor: pointer;
+}
+
+.tw-button {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background: url(images/twitterblack.svg);
+    margin: 3px 24px 3px 0;
+    padding: 0;
+    height: 11.33px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.tw-button:hover {
+    scale: 150%;
+    cursor: pointer;
+}
+
+.pn-button {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background: url(images/pinterestblack.svg);
+    margin-right: 24px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.pn-button:hover {
+    scale: 150%;
+    cursor: pointer;
+}
+
+/* header style end  */
+
+/* main menu style start  */
+
+.main-menu-whole {
+    width: 100%;
+    height: 96px;
+    columns: 11;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.home-btn {
+    margin: 34px 62px 34px 0;
+}
+
+.features-btn {
+    margin: 34px 62px 34px 0;
+
+}
+
+
+.btn-group:hover {
+    cursor: pointer!important;
+    text-decoration: underline!important;
+}
+
+.features-expand {
+    padding-bottom: 3px;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background: url(images/ios-arrow-down\ 2.svg);
+}
+
+.features-expand:hover {
+    cursor: pointer;
+    scale: 150%;
+}
+
+
+
+.mm {
+    margin: 0;
+    padding: 34px 62px 34px 0;
+    background: transparent;
+    border: 0;
+}
+
+.travel {
+    background: transparent;
+    border: 0;
+}
+
+.travel:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lifestyle {
+    background: transparent;
+    border: 0;
+}
+
+.lifestyle:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.photography {
+    background: transparent;
+    border: 0;
+}
+
+.photography:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.creativity {
+    background: transparent;
+    border: 0;
+}
+
+.creativity:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pages-btn {
+    margin: 34px 62px 34px 0;
+}
+
+.contact {
+    margin: 34px 0 34px 0;
+    background: transparent;
+    border: 0;
+}
+
+.contact:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* main menu style end  */
+/* carousel style start  */
+
+
+.carousel-inner {
+    height: 496px;
+    width: 1440px;
+    display: flex;
+}
+
+.myCarousel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev {
+    color: white;
+    margin: 130px 0 0 0 !important;
+    padding: 0 !important;
+    height: 50px;
+}
+
+.carousel-control-next {
+    color: white;
+    margin: 130px 20px 0 0 !important;
+    padding: 0 !important;
+    height: 50px;
+}
+
+.carousel-control-prev:hover {
+    color: #6E6962;
+}
+
+.carousel-control-next:hover {
+    color: #6E6962;
+}
+
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+
+.container {
+    margin: 0;
+}
+
+.carousell-all {
+    border-bottom: #f8f1e8 solid 2px;
+}
+
+.carousel-item-topic {
+    font-size: 25px;
+}
+
+.container {
+    max-width: 100%;
+    max-height: 736px;
+    text-align: center;
+}
+
+.img-fluid {
+    padding-right: 20px;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.photo-description-top {
+    margin-top: 20px;
+}
+
+
+/* carousel style end  */
+
+/* choose-a-category style  start */
+
+.choose-a-category {
+    height: 432px;
+}
+
+.choose-a-category-text {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 36px;
+    font-size: 33px;
+}
+
+.top {
+    background-color: #cccccc;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 13px;
+}
+
+.bottom {
+    background: transparent;
+    margin: auto;
+    padding: auto;
+    border: none;
+}
+
+.travel-stories {
+    color: #f79d1d;
+  
+}
+
+.travel-stories-top {
+   
+    background: url(images/book.jpg);
+    background-size: cover;
+    }
+
+    .travel-stories-btn:hover{
+        scale: 125%;
+    }
+
+    .cruises-top{
+        background: url(images/Cruise.jpg);
+        background-size: cover;
+    }
+    .cruises-btn:hover{
+        scale: 125%;
+    }
+
+    .on-the-road-top{
+        background: url(images/ontheroad.png);
+        background-size: cover;
+    }
+    .on-the-road-btn:hover{
+        scale: 125%;
+    }
+
+    .hotels-top{
+        background: url(images/hotel1.jpg);
+        background-size: cover;
+    }
+    .hotels-btn:hover{
+        scale: 125%;
+    }
+
+    .travel-tips-top{
+        background: url(images/luggage.png);
+        background-size:cover;                    
+        background-position: center; 
+    }
+    .travel-tips-btn:hover{
+        scale: 125%;
+    }
+
+    .category{
+        padding: 60px 30px 60px 30px;
+        
+    }
+    .solo-travel-top{
+        background: url(images/solo_travel.jpg);
+        background-size: cover;
+    }
+    .solo-travel-btn:hover{
+        scale: 125%;
+    }
+
+    .adventure-sports-top{
+        background: url(images/adventure_sports.jpg);
+        background-size: cover;
+
+    }
+    .adventure-sports-btn:hover{
+        scale: 125%;
+    }
+.choose-a-category-row {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.col1 {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.adventure-sports,
+.travel-stories,
+.solo-travel,
+.cruises,
+.on-the-road,
+.hotels,
+.travel-tips {
+    border: none;
+}
+
+/* choose-a-category style end  */
+
+
+/* featured-explore style start   */
+
+.featured-explore-all {
+    background-color: #f8f1e8;
+}
+
+.featured-explore {
+    font-size: 33px;
+    padding-top: 54px !important;
+}
+
+.journey {
+    font-size: 16px;
+    padding-bottom: 55px;
+}
+
+.photo-by {
+    font-size: 13px;
+    background-color: transparent;
+}
+
+.card-name {
+    font-size: 24px;
+    background-color: transparent;
+}
+
+.descr-photo {
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.card {
+    margin: 0 15px 55px 15px;
+    background-color: transparent;
+    border: none;
+    height: auto;
+}
+
+.card.colums {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.card-columns-left {
+    margin-left: 62px;
+}
+
+.card-columns-right {
+    margin-right: 62px;
+}
+
+
+.something {
+    color: #f79d1d;
+    text-decoration: underline;
+}
+
+.by {
+    color: #a0998f;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.author {
+    color: #6e6962;
+}
+
+
+/* featured explore style  end  */
+
+/* Popular posts start */
+
+.col-left {
+    width: 70%;
+    margin-left: 62px;
+}
+
+.col-right {
+    width: 30%;
+}
+
+.posts-card {
+    height: 236px;
+    width: 80%;
+}
+
+.card-img-posts {
+    width: 420px;
+    height: 236px;
+}
+
+.posts-card:hover{
+    scale: 105%;
+}
+
+.cc:hover{
+    scale: 103%;
+}
+
+.card-body-popular-posts {
+    width: 504px;
+    padding: 0;
+    padding-top: 21px;
+}
+
+.popular-col-left {
+    border: #f8f1e8 solid 1px;
+}
+
+.popular-col-left {
+    width: 308px;
+}
+
+.latest-posts {
+    text-align: center;
+    font-size: 19px;
+    margin: 28px 0 32px 0;
+}
+
+.next-posts-btn{
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+    border: none;
+    background: none;
+}
+.next-posts-btn1{
+    border-radius: 50%;
+    border: #f8f1e8 solid 1px;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+    background: none;
+    color: #f9b759;
+}
+
+.next-posts-btn1:hover, .next-posts-btn2:hover, .next-posts-btn3:hover, .next-posts-btn-next:hover{
+    scale: 150%;
+    cursor: pointer;
+}
+
+.popular-card {
+    width: 252px;
+    height: 72px;
+    margin: 0 28px 24px 28px;
+}
+
+.popular-card:hover{
+    border: #191919 solid 1.5px;
+    border-radius: 0%;
+}
+
+.card-img-latest-posts {
+    margin: 0;
+    padding: 0;
+    width: 84px;
+    height: 68px;
+}
+
+
+.card-latest-posts-name {
+    font-size: 16px;
+    width: 152px;
+    height: 48px;
+    margin-bottom: 0;
+}
+
+.card-latest-posts-date {
+    font-size: 13px;
+    color: #a0998f;
+
+}
+
+.ad {
+    background: url(images/BANNER.png);
+    height: 384px;
+    width: 308px;
+    margin-left: 20px;
+}
+
+.ad:hover{
+    scale: 110%;
+    border: #333333 solid 1px;
+    border-radius: 5%;
+}
+
+.tags {
+    margin: 32px 0 32px 21px;
+    border: #f8f1e8 solid 1px;
+    width: 308px;
+    height: auto;
+}
+
+.tags-word {
+    font-size: 19px;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+
+.tags-links {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.tag-link {
+    color: #f8aa3c;
+    padding-right: 13px;
+    text-align: center;
+}
+
+.author-all {
+    margin: 32px 0 32px 21px;
+    border: #f8f1e8 solid 1px;
+    width: 308px;
+    height: auto;
+    font-size: 16px;
+}
+
+.about-author-text {
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.author-text {
+    margin: 32px 0 32px 0;
+    text-align: center;
+    font-size: 19px;
+}
+/* Popular posts end   */
+
+/* subscribe style start  */
+
+.subsription{
+    margin-top: 96px;
+    height: 208px;
+    background-color: #c4c4c4;
+    display: flex;
+    color: white;
+}
+
+.subscription-all{
+ align-items: center;
+}
+
+.subscribe-text{
+    width: 513px;
+    height: 48px;
+    margin-right: 159px;
+    margin-left: 87px;
+    padding-top: 5px;
+}
+.email-input{
+    width: 289px; 
+    height: 40px;
+    margin-right: 8px;
+    padding: 0;
+    font-size: 13px; 
+}
+
+.subscribe-btn{
+    width: 123px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.subscribe-btn-text{
+    width: 123px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: #f79d1d;
+    font-size: 13px;
+    border: none;
+}
+/* subscribe style end  */
+
+/* follow instagram style start  */
+
+.follow-instagram-text{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 57px;
+}
+.tag-mangata-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f79d1d;
+    margin-bottom: 23px;
+}
+
+.insta-photo {
+    width: 212px;
+    height: 212px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  
+  .insta-photo-photos{
+    margin-left: 63px;
+    margin-right: 63px;
+    padding-bottom: 76px;
+  }
+/* follow instagram style end  */
+
+/* footer style start  */
+
+.footer{background-color: #191919;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .container-footer-logo{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .container-footer-text{
+    color: #68645d;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-bottom: 28px;
+   }
+
+   .main-menu-bottom{
+     height: 96px;
+     }
+
+    .bottom-home{
+    margin-left: 30%;
+    color: white;
+   }
+
+.bottom-contact{
+    margin-right: 30%;
+}
+
+.home-bottom, .aboutme, .contact-bottom{
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.aboutme:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.home-bottom:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact-bottom:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container-social-network-bottom{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 48px;
+    border-bottom: #333333 solid 1px;
+}
+
+.social-network-list-bottom{
+    width: 176px;
+    height: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   }
+
+   .copyright{
+    color: #6e6962;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   }
+
+/* footer style end  */
+
+/* .all{
+    width: 1440px;
+} */
